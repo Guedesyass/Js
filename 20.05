@@ -1,0 +1,28 @@
+<!DOCTYPE html lang="pt-br">
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport", content="width-device-width, inital-scale = 1.0 ">
+        </head>
+        <body style="font-family: verdana;">
+             
+            
+            <!--JS-->
+            <script>
+                function resultado () {
+                    total.value= parseInt(quant.value)*parseFloat(preco.value)
+                }
+
+            </script>
+
+            <!--html-->
+
+            <h1> Produto </h1> </br>
+            Descrição: <input type="text" id="desc" value="Coca-cola"> </br>
+            Quantidade: <input type="text" id="quant" value="0"> </br>
+            Preço Unitário: <input type="text" id="preco" value="0">
+            <input type="button" value="calcular" onclick="resultado()"> </br>
+            Preço Total: <input type="text" id="total" value="0"> </br>
+
+        </body>
+    </html>
